@@ -14,6 +14,9 @@ a = function(a,b,c,...) end -- function
 -- thread allows coroutines
 a = {} -- table
 -- in tables, nil means empty, and vice versa
+a.name = 1; a["name"] = 2 -- a.name is 2
+a[3.0] = 3 -- a[3] is 3
+a = {[2] = 2} -- a[2] is 2
 
 print(type(a)) -- returns a string
 
