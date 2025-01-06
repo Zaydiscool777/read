@@ -14,3 +14,5 @@ unsigned long hash(unsigned char *str){
 }
 
 // sha256: use https://github.com/B-Con/crypto-algorithms/blob/master/sha256.c instead.
+
+// credit: https://www.geeksforgeeks.org/structures-c/
