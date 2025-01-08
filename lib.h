@@ -24,7 +24,7 @@ unsigned long chash(unsigned char *str){
 }
 
 //https://burtleburtle.net/bob/hash/integer.html
-unsigned long ihash(unsigned int a)
+unsigned long ihash(unsigned long a)
 {
     a -= (a<<6);
     a ^= (a>>17);
